@@ -99,3 +99,41 @@ If you find an error, have a suggestion, or want to improve the learning resourc
 Let's learn and build together. 🚀
 
 **Happy Learning and Good Luck with Your Certification Journey!**
+
+---
+
+## Repository guide
+
+### Contents
+
+- [Chapter 0 - Overview](Chapter%200%20-%20Overview)
+- [Chapter 1 - Introduction to AI Agents](Chapter%201%20-%20Introduction%20to%20AI%20Agents)
+- [Chapter 2 - LangChain for AI Agents](Chapter%202%20-%20LangChain%20for%20AI%20Agents)
+- [Chapter 3 - Introduction to MCP](Chapter%203%20-%20Introduction%20to%20MCP)
+- [Chapter 4 - Open AI Responses API and Agents SDK Basics](Chapter%204%20-%20Open%20AI%20Responses%20API%20and%20Agents%20SDK%20Basics)
+- [Chapter 5 - Agentic AI for OCI Enterprise AI](Chapter%205%20-%20Agentic%20AI%20for%20OCI%20Enterprise%20AI)
+- [LICENSE](LICENSE)
+- [README.md](README.md)
+
+### Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Oracle-Agentic-AI-Foundations-Associate.git
+cd Oracle-Agentic-AI-Foundations-Associate
+```
+
+Open the relevant .ipynb notebook in Jupyter or a compatible notebook environment. Inspect its dependency and data-loading cells before running; there is no single shared application entry point.
+
+### Configuration and limitations
+
+### Validation
+
+Reviewed on 2026-10-08. Python syntax checks passed for 11 source files. Syntax validation does not establish runtime correctness or dependency compatibility.
+
+### Contributions
+
+Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
+
+### License
+
+See [LICENSE](LICENSE) for the repository’s licensing terms.

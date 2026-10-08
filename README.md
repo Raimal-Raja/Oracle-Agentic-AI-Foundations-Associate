@@ -102,9 +102,9 @@ Let's learn and build together. 🚀
 
 ---
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [Chapter 0 - Overview](Chapter%200%20-%20Overview)
 - [Chapter 1 - Introduction to AI Agents](Chapter%201%20-%20Introduction%20to%20AI%20Agents)
@@ -113,7 +113,6 @@ Let's learn and build together. 🚀
 - [Chapter 4 - Open AI Responses API and Agents SDK Basics](Chapter%204%20-%20Open%20AI%20Responses%20API%20and%20Agents%20SDK%20Basics)
 - [Chapter 5 - Agentic AI for OCI Enterprise AI](Chapter%205%20-%20Agentic%20AI%20for%20OCI%20Enterprise%20AI)
 - [LICENSE](LICENSE)
-- [README.md](README.md)
 
 ### Getting started
 
@@ -126,9 +125,15 @@ Open the relevant .ipynb notebook in Jupyter or a compatible notebook environmen
 
 ### Configuration and limitations
 
+Run chapter examples individually and inspect their imports and API configuration first. Cloud services, live agents and external API calls were not exercised in this audit.
+
 ### Validation
 
-Reviewed on 2026-10-08. Python syntax checks passed for 11 source files. Syntax validation does not establish runtime correctness or dependency compatibility.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. 11 existing Python files passed syntax checks; changed files and new regression tests were checked separately. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 

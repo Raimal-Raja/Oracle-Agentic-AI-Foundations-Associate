@@ -1,4 +1,58 @@
-# Oracle Agentic AI Foundations Associate (2026) – Certification Study Guide
+# Oracle Agentic AI Foundations — Study Guide
+
+Agentic AI study guide with chapters on agents, LangChain, MCP, OpenAI APIs, and OCI enterprise concepts.
+
+## Project focus
+
+Learning notes and notebooks. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
+
+## Workflow
+
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+The diagram describes how to work through the material; it is not a deployed service topology.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`Chapter 0 - Overview/`](Chapter%200%20-%20Overview) | Topic-organized learning material and examples. |
+| [`Chapter 1 - Introduction to AI Agents/`](Chapter%201%20-%20Introduction%20to%20AI%20Agents) | Topic-organized learning material and examples. |
+| [`Chapter 2 - LangChain for AI Agents/`](Chapter%202%20-%20LangChain%20for%20AI%20Agents) | Topic-organized learning material and examples. |
+| [`Chapter 3 - Introduction to MCP/`](Chapter%203%20-%20Introduction%20to%20MCP) | Topic-organized learning material and examples. |
+| [`Chapter 4 - Open AI Responses API and Agents SDK Basics/`](Chapter%204%20-%20Open%20AI%20Responses%20API%20and%20Agents%20SDK%20Basics) | Topic-organized learning material and examples. |
+| [`Chapter 5 - Agentic AI for OCI Enterprise AI/`](Chapter%205%20-%20Agentic%20AI%20for%20OCI%20Enterprise%20AI) | Topic-organized learning material and examples. |
+| [`LICENSE`](LICENSE) | Repository licensing terms. |
+
+## Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Oracle-Agentic-AI-Foundations-Associate.git
+cd Oracle-Agentic-AI-Foundations-Associate
+```
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead.
+
+Open one `.ipynb` file in Jupyter, VS Code, Kaggle, or Colab. Read its dependency and dataset cells before execution. Notebook paths and model/data requirements vary; this repository is not one shared deployable application.
+
+## Verification
+
+Use the setup commands and inspect the selected interface, example, or notebook with known inputs. This documentation review checks repository paths and dependency declarations; it does not claim fresh end-to-end execution or model-quality measurements.
+
+## Detailed project guide
 
 Welcome to my learning repository for the **Oracle Agentic AI Foundations Associate (2026)** certification.
 
@@ -99,3 +153,11 @@ If you find an error, have a suggestion, or want to improve the learning resourc
 Let's learn and build together. 🚀
 
 **Happy Learning and Good Luck with Your Certification Journey!**
+
+## Contributing
+
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
+
+## License
+
+See [LICENSE](LICENSE) for the repository's license.
